@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ntkbb.moviefinder.MovieDetail">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="250dp"
+            android:paddingTop="450dp">
+
+            <Button
+                android:id="@+id/button_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Favorite"
+                android:textColor="@color/cardview_light_background"
+                android:textColorLink="@color/cardview_light_background" />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/captionD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="290dp"
+            android:text="Caption" />
+
+        <TextView
+            android:id="@+id/DateD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="250dp"
+            android:paddingTop="210dp"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/movieNameD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="210dp"
+            android:text="Movie Name" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/GenreD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="240dp"
+            android:text="Genre" />
+
+    </FrameLayout>
+
+</LinearLayout>
